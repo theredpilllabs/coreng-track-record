@@ -1,8 +1,8 @@
 # GEOFIN — Track Record Pubblico
 
-Snapshot giornalieri, generati e pubblicati automaticamente, del modello
-di allocazione sistematica GEOFIN (Correlation Engine). Trasparenza
-completa: ogni file mostra regime, stress score, e l'allocazione intera
+Snapshot giornalieri del modello di allocazione sistematica GEOFIN
+(Correlation Engine). Trasparenza completa: ogni file mostra regime,
+stress score, e l'allocazione intera
 (pesi per asset) generata quel giorno per 3 profili di rischio
 (CONSERVATIVO, MODERATO, CRESCITA), oltre ai segnali di paper trading.
 

@@ -1,0 +1,331 @@
+{
+  "date": "2026-11-24",
+  "model_version": "continuous_allocation_v1",
+  "phase": "EXPANSION",
+  "regime": "EXPANSION",
+  "gpsi": 74.16,
+  "routing_mode": "BLEND",
+  "stress": {
+    "stress_score_global": 0.7816590078360717,
+    "vix_zscore": 2.3236663963714705,
+    "hy_spread_proxy_zs": 0.8282783664937928,
+    "vol_realized_zscore_spy": 4.0,
+    "yield_curve_stress_pct": 94.55252918287938,
+    "gdelt_stress_pct": 0.5524861878453038,
+    "gold_stress_pct": 4.810126582278481,
+    "fxy_stress_pct": 77.46835443037975
+  },
+  "portfolio_allocations": [
+    {
+      "profile": "CONSERVATIVO",
+      "phase": "EXPANSION",
+      "regime": "CRISIS",
+      "equity_weight": 0.1176,
+      "bond_weight": 0.494,
+      "gold_weight": 0.1725,
+      "risk_scalar": 0.54,
+      "realized_vol": 30.505267727831782,
+      "asset_weights": [
+        {
+          "amount": 22.35461136570619,
+          "symbol": "SPY",
+          "weight": 0.04470922273141238
+        },
+        {
+          "amount": 11.0685266396888,
+          "symbol": "VGK",
+          "weight": 0.0221370532793776
+        },
+        {
+          "amount": 17.079000954628338,
+          "symbol": "EEM",
+          "weight": 0.03415800190925668
+        },
+        {
+          "amount": 8.298287007104765,
+          "symbol": "FXI",
+          "weight": 0.01659657401420953
+        },
+        {
+          "amount": 164.67335350127897,
+          "symbol": "LQD",
+          "weight": 0.3293467070025579
+        },
+        {
+          "amount": 82.33667675063948,
+          "symbol": "EMB",
+          "weight": 0.16467335350127896
+        },
+        {
+          "amount": 57.39978178370409,
+          "symbol": "GLD",
+          "weight": 0.11479956356740818
+        },
+        {
+          "amount": 28.84901851285905,
+          "symbol": "GDX",
+          "weight": 0.0576980370257181
+        }
+      ]
+    },
+    {
+      "profile": "CRESCITA",
+      "phase": "EXPANSION",
+      "regime": "CRISIS",
+      "equity_weight": 0.1828,
+      "bond_weight": 0.4402,
+      "gold_weight": 0.1637,
+      "risk_scalar": 0.54,
+      "realized_vol": 30.505267727831782,
+      "asset_weights": [
+        {
+          "amount": 34.74090260044541,
+          "symbol": "SPY",
+          "weight": 0.06948180520089081
+        },
+        {
+          "amount": 17.201399730427227,
+          "symbol": "VGK",
+          "weight": 0.03440279946085446
+        },
+        {
+          "amount": 26.542170605027355,
+          "symbol": "EEM",
+          "weight": 0.05308434121005471
+        },
+        {
+          "amount": 12.896219752969124,
+          "symbol": "FXI",
+          "weight": 0.025792439505938246
+        },
+        {
+          "amount": 146.7250321405413,
+          "symbol": "LQD",
+          "weight": 0.29345006428108256
+        },
+        {
+          "amount": 73.36251607027064,
+          "symbol": "EMB",
+          "weight": 0.14672503214054128
+        },
+        {
+          "amount": 54.45619720161841,
+          "symbol": "GLD",
+          "weight": 0.10891239440323681
+        },
+        {
+          "amount": 27.3695786358443,
+          "symbol": "GDX",
+          "weight": 0.0547391572716886
+        }
+      ]
+    },
+    {
+      "profile": "MODERATO",
+      "phase": "EXPANSION",
+      "regime": "CRISIS",
+      "equity_weight": 0.1557,
+      "bond_weight": 0.4627,
+      "gold_weight": 0.1672,
+      "risk_scalar": 0.54,
+      "realized_vol": 30.505267727831782,
+      "asset_weights": [
+        {
+          "amount": 29.594104888464546,
+          "symbol": "SPY",
+          "weight": 0.05918820977692909
+        },
+        {
+          "amount": 14.65304553843522,
+          "symbol": "VGK",
+          "weight": 0.02930609107687044
+        },
+        {
+          "amount": 22.609999224448163,
+          "symbol": "EEM",
+          "weight": 0.04521999844889633
+        },
+        {
+          "amount": 10.985669670803643,
+          "symbol": "FXI",
+          "weight": 0.021971339341607287
+        },
+        {
+          "amount": 154.22650464668345,
+          "symbol": "LQD",
+          "weight": 0.3084530092933669
+        },
+        {
+          "amount": 77.11325232334173,
+          "symbol": "EMB",
+          "weight": 0.15422650464668344
+        },
+        {
+          "amount": 55.633631034452684,
+          "symbol": "GLD",
+          "weight": 0.11126726206890537
+        },
+        {
+          "amount": 27.961354586650206,
+          "symbol": "GDX",
+          "weight": 0.05592270917330041
+        }
+      ]
+    }
+  ],
+  "paper_signals": [
+    {
+      "profilo": "PAC",
+      "symbol": "SHY",
+      "action": "BUY",
+      "weight": 0.2449,
+      "expected_return": 0.502,
+      "holding_period": 90,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "PAC",
+      "symbol": "USMV",
+      "action": "BUY",
+      "weight": 0.2046,
+      "expected_return": 3.209,
+      "holding_period": 90,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "PAC",
+      "symbol": "XAR",
+      "action": "BUY",
+      "weight": 0.2044,
+      "expected_return": 5.138,
+      "holding_period": 90,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "PAC",
+      "symbol": "BTC-USD",
+      "action": "BUY",
+      "weight": 0.2007,
+      "expected_return": null,
+      "holding_period": 90,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "PAC",
+      "symbol": "VLUE",
+      "action": "BUY",
+      "weight": 0.1454,
+      "expected_return": 4.639,
+      "holding_period": 90,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "XLP",
+      "action": "BUY",
+      "weight": 0.28,
+      "expected_return": 0.683,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "INDA",
+      "action": "BUY",
+      "weight": 0.28,
+      "expected_return": 0.975,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "TLT",
+      "action": "BUY",
+      "weight": 0.1493,
+      "expected_return": -0.066,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "SHY",
+      "action": "BUY",
+      "weight": 0.1397,
+      "expected_return": 0.168,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "SOXX",
+      "action": "SELL",
+      "weight": 0.1139,
+      "expected_return": 1.286,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "EWT",
+      "action": "SELL",
+      "weight": 0.109,
+      "expected_return": 0.906,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "MTUM",
+      "action": "SELL",
+      "weight": 0.1021,
+      "expected_return": 0.638,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "ETH-USD",
+      "action": "SELL",
+      "weight": 0.0877,
+      "expected_return": null,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "BTC-USD",
+      "action": "SELL",
+      "weight": 0.0873,
+      "expected_return": null,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "LQD",
+      "action": "BUY",
+      "weight": 0.0734,
+      "expected_return": 0.309,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "IEF",
+      "action": "BUY",
+      "weight": 0.061,
+      "expected_return": 0.236,
+      "holding_period": 30,
+      "confidence": 0.474
+    },
+    {
+      "profilo": "SPECULATIVE",
+      "symbol": "FXY",
+      "action": "BUY",
+      "weight": 0.0166,
+      "expected_return": -0.15,
+      "holding_period": 30,
+      "confidence": 0.474
+    }
+  ]
+}
